@@ -3024,7 +3024,6 @@ export class Miniflare {
 				await this.#runtimeDispatcher?.close();
 			} catch {}
 
-
 			await this.#stopLoopbackServer();
 			// Best-effort cleanup: on Windows, workerd may not release file handles
 			// immediately after disposal, causing EBUSY errors. The temp directory
