@@ -2010,7 +2010,6 @@ export class Miniflare {
 				workerNames,
 				loopbackHost,
 				loopbackPort,
-				loopbackHost,
 				unsafeStickyBlobs,
 				wrappedBindingNames,
 				durableObjectClassNames,
